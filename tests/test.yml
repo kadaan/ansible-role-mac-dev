@@ -2,4 +2,4 @@
 - hosts: localhost
   remote_user: root
   roles:
-    - mac-dev
+    - ansible-role-mac-dev
