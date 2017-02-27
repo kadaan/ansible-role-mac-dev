@@ -16,4 +16,5 @@ dependencies:
   - kadaan.homebrew
   - kadaan.prezto
   - kadaan.mas
+  - kadaan.node
   - hnakamur.atom-packages

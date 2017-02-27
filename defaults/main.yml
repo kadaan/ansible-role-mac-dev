@@ -11,3 +11,5 @@ mas_upgrade_all_apps: true
 mas_installed_app_ids: []
 mas_email: ""
 mas_password: ""
+
+npm_global_packages: []
