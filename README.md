@@ -53,7 +53,8 @@ Whether to run `mas upgrade`, which will upgrade all installed Mac App Store app
 
     - [kadaan.homebrew](https://galaxy.ansible.com/kadaan/homebrew/)
     - [kadaan.prezto](https://galaxy.ansible.com/kadaan/prezto/)
-    - [kadaan.mas]()https://galaxy.ansible.com/kadaan/mas/
+    - [kadaan.mas](https://galaxy.ansible.com/kadaan/mas/)
+    - [kadaan.node](https://galaxy.ansible.com/kadaan/node/)
     - [hnakamur.atom-packages](https://galaxy.ansible.com/hnakamur/atom-packages/)
 
 ## Example Playbook
