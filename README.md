@@ -49,6 +49,10 @@ A list of apps to ensure are installed on the computer. You can get IDs for all 
 
 Whether to run `mas upgrade`, which will upgrade all installed Mac App Store apps.
 
+    node_npm_global_packages: []
+
+Global NPM packages you would like to make sure are installed.
+
 ## Dependencies
 
     - [kadaan.homebrew](https://galaxy.ansible.com/kadaan/homebrew/)

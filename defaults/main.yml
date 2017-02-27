@@ -12,4 +12,4 @@ mas_installed_app_ids: []
 mas_email: ""
 mas_password: ""
 
-npm_global_packages: []
+node_npm_global_packages: []
