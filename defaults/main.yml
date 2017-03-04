@@ -12,6 +12,11 @@ mas_installed_app_ids: []
 mas_email: ""
 mas_password: ""
 
+node_versions: []
 node_npm_global_packages: []
 
+python_versions: []
 python_pip_global_packages: []
+
+ruby_versions: []
+ruby_global_gems: []

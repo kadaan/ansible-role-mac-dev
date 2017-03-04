@@ -49,13 +49,29 @@ A list of apps to ensure are installed on the computer. You can get IDs for all 
 
 Whether to run `mas upgrade`, which will upgrade all installed Mac App Store apps.
 
+    node_versions: []
+
+Node versions you would like to make sure are installed by nodenv.
+
     node_npm_global_packages: []
 
 Global NPM packages you would like to make sure are installed.
 
+    python_versions: []
+
+Python versions you would like to make sure are installed by pyenv.
+
     python_pip_global_packages: []
 
 Global PIP packages you would like to make sure are installed.
+
+    ruby_versions: []
+
+Ruby versions you would like to make sure are installed by rbenv.
+
+    ruby_global_gems: []
+
+Global Ruby gems you would like to make sure are installed.
 
 ## Dependencies
 
@@ -64,6 +80,7 @@ Global PIP packages you would like to make sure are installed.
     - [kadaan.mas](https://galaxy.ansible.com/kadaan/mas/)
     - [kadaan.node](https://galaxy.ansible.com/kadaan/node/)
     - [kadaan.python](https://galaxy.ansible.com/kadaan/python/)
+    - [kadaan.ruby](https://galaxy.ansible.com/kadaan/ruby/)
     - [hnakamur.atom-packages](https://galaxy.ansible.com/hnakamur/atom-packages/)
 
 ## Example Playbook

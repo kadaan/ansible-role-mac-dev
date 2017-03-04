@@ -4,4 +4,5 @@
 - src: kadaan.mas
 - src: kadaan.node
 - src: kadaan.python
+- src: kadaan.ruby
 - src: hnakamur.atom-packages
