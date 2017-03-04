@@ -13,3 +13,5 @@ mas_email: ""
 mas_password: ""
 
 node_npm_global_packages: []
+
+python_pip_global_packages: []

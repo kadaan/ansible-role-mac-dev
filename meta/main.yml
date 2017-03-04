@@ -17,4 +17,5 @@ dependencies:
   - kadaan.prezto
   - kadaan.mas
   - kadaan.node
+  - kadaan.python
   - hnakamur.atom-packages

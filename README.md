@@ -53,12 +53,17 @@ Whether to run `mas upgrade`, which will upgrade all installed Mac App Store app
 
 Global NPM packages you would like to make sure are installed.
 
+    python_pip_global_packages: []
+
+Global PIP packages you would like to make sure are installed.
+
 ## Dependencies
 
     - [kadaan.homebrew](https://galaxy.ansible.com/kadaan/homebrew/)
     - [kadaan.prezto](https://galaxy.ansible.com/kadaan/prezto/)
     - [kadaan.mas](https://galaxy.ansible.com/kadaan/mas/)
     - [kadaan.node](https://galaxy.ansible.com/kadaan/node/)
+    - [kadaan.python](https://galaxy.ansible.com/kadaan/python/)
     - [hnakamur.atom-packages](https://galaxy.ansible.com/hnakamur/atom-packages/)
 
 ## Example Playbook
