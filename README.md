@@ -87,7 +87,7 @@ Global Ruby gems you would like to make sure are installed.
 
     - hosts: localhost
       roles:
-        - { role: kadaan.mac-dev }
+        - { role: kadaan.mac-dev, macdev_execute: true }
 
 ## License
 

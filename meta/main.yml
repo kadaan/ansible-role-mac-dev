@@ -19,4 +19,4 @@ dependencies:
   - kadaan.node
   - kadaan.python
   - kadaan.ruby
-  - hnakamur.atom-packages
+  - kadaan.atom-packages

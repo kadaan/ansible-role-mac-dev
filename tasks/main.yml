@@ -1,8 +1,65 @@
 ---
+- name: Run the homebrew role.
+  include_role:
+    name: kadaan.homebrew
+    private: true
+  vars:
+    homebrew_execute: true
+  when: mac_dev_execute == true
+
+- name: Run the prezto role.
+  include_role:
+    name: kadaan.prezto
+    private: true
+  vars:
+    prezto_execute: true
+  when: mac_dev_execute == true
+
+- name: Run the mas role.
+  include_role:
+    name: kadaan.mas
+    private: true
+  vars:
+    mas_execute: true
+  when: mac_dev_execute == true
+
+- name: Run the node role.
+  include_role:
+    name: kadaan.node
+    private: true
+  vars:
+    node_execute: true
+  when: mac_dev_execute == true
+
+- name: Run the python role.
+  include_role:
+    name: kadaan.python
+    private: true
+  vars:
+    python_execute: true
+  when: mac_dev_execute == true
+
+- name: Run the ruby role.
+  include_role:
+    name: kadaan.ruby
+    private: true
+  vars:
+    ruby_execute: true
+  when: mac_dev_execute == true
+
+- name: Run the atom-packages role.
+  include_role:
+    name: kadaan.atom-packages
+    private: true
+  vars:
+    atom_packages_execute: true
+  when: mac_dev_execute == true
+
 - name: Ensure /etc/ansible directory exists.
   file:
     path: /etc/ansible
     state: directory
+  when: mac_dev_execute == true
   become: yes
 
 - name: Symlink /usr/local/etc/ansible to /etc/ansible.
@@ -10,3 +67,4 @@
     src: /etc/ansible
     path: /usr/local/etc/ansible
     state: link
+  when: mac_dev_execute == true
