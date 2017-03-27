@@ -3,7 +3,6 @@
   file:
     path: /etc/ansible
     state: directory
-  when: mac_dev_execute == true
   become: yes
 
 - name: Symlink /usr/local/etc/ansible to /etc/ansible.
@@ -11,4 +10,3 @@
     src: /etc/ansible
     path: /usr/local/etc/ansible
     state: link
-  when: mac_dev_execute == true
