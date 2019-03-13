@@ -10,3 +10,10 @@
     src: /etc/ansible
     path: /usr/local/etc/ansible
     state: link
+
+- name: Clone git repo
+  git:
+    repo: "{{ item }}"
+    dest: "/Users/{{ ansible_user }}/Source/{{ item | basename }}"
+    update: no
+  with_items: "{{ git_repos }}"
