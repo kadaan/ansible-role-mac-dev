@@ -76,7 +76,7 @@ Global Ruby gems you would like to make sure are installed.
 ## Dependencies
 
     - [kadaan.homebrew](https://galaxy.ansible.com/kadaan/homebrew/)
-    - [kadaan.prezto](https://galaxy.ansible.com/kadaan/prezto/)
+    - [kadaan.zplugin](https://galaxy.ansible.com/kadaan/zplugin/)
     - [kadaan.mas](https://galaxy.ansible.com/kadaan/mas/)
     - [kadaan.node](https://galaxy.ansible.com/kadaan/node/)
     - [kadaan.python](https://galaxy.ansible.com/kadaan/python/)
