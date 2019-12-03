@@ -14,7 +14,7 @@ galaxy_info:
     - packaging
 dependencies:
   - kadaan.homebrew
-  - kadaan.prezto
+  - kadaan.zplugin
   - kadaan.mas
   - kadaan.node
   - kadaan.python
