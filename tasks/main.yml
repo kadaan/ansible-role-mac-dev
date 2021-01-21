@@ -14,6 +14,6 @@
 - name: Clone git repo
   git:
     repo: "{{ item }}"
-    dest: "/Users/{{ ansible_user_id }}/Source/{{ item | basename }}"
+    dest: "/Users/{{ lookup('env', 'USER') }}/Source/{{ item | basename }}"
     update: no
   with_items: "{{ git_repos }}"
