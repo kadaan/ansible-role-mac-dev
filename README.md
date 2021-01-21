@@ -1,6 +1,6 @@
 # Ansible Role: Mac-dev
 
-[![Build Status](https://travis-ci.org/kadaan/ansible-role-mac-dev.svg?branch=master)](https://travis-ci.org/kadaan/ansible-role-mac-dev)
+[![Build Status](https://travis-ci.com/kadaan/ansible-role-mac-dev.svg?branch=master)](https://travis-ci.com/kadaan/ansible-role-mac-dev)
 
 Mac developer box installation.
 
