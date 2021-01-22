@@ -1,6 +1,6 @@
 # Ansible Role: Mac-dev
 
-[![Build Status](https://travis-ci.com/kadaan/ansible-role-mac-dev.svg?branch=master)](https://travis-ci.com/kadaan/ansible-role-mac-dev)
+[![CI][badge-gh-actions]][link-gh-actions]
 
 Mac developer box installation.
 
@@ -92,3 +92,6 @@ Global Ruby gems you would like to make sure are installed.
 ## License
 
 Apache 2.0
+
+[badge-gh-actions]: https://github.com/kadaan/ansible-role-mac-dev/workflows/CI/badge.svg?event=push
+[link-gh-actions]: https://github.com/kadaan/ansible-role-mac-dev/actions?query=workflow%3ACI

@@ -1,17 +1,4 @@
-galaxy_info:
-  author: kadaan
-  description: Mac developer box installation.
-  license: Apache 2.0
-  min_ansible_version: 2.2
-  platforms:
-    - name: MacOSX
-      versions:
-        - 10.11
-        - 10.12
-  galaxy_tags:
-    - development
-    - system
-    - packaging
+---
 dependencies:
   - kadaan.homebrew
   - kadaan.zinit
@@ -20,3 +7,19 @@ dependencies:
   - kadaan.python
   - kadaan.ruby
   - kadaan.atom-packages
+
+galaxy_info:
+  role_name: mac-dev
+  author: kadaan
+  description: Mac developer box installation
+  license: Apache 2.0
+  min_ansible_version: 2.5
+  platforms:
+    - name: MacOSX
+      versions:
+        - all
+        - any
+  galaxy_tags:
+    - development
+    - system
+    - packaging

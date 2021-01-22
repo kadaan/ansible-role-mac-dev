@@ -3,7 +3,7 @@
   file:
     path: /etc/ansible
     state: directory
-  become: yes
+  become: true
 
 - name: Symlink /usr/local/etc/ansible to /etc/ansible.
   file:
@@ -15,5 +15,5 @@
   git:
     repo: "{{ item }}"
     dest: "/Users/{{ ansible_env.USER }}/Source/{{ item | basename }}"
-    update: no
+    update: false
   with_items: "{{ git_repos }}"
