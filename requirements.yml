@@ -1,6 +1,6 @@
 ---
 - src: kadaan.homebrew
-- src: kadaan.prezto
+- src: kadaan.zinit
 - src: kadaan.mas
 - src: kadaan.node
 - src: kadaan.python
